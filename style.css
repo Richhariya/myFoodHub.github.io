@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+    
+   
+    
+}
+.navbar #logo img {
+    height: 50px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    color: red;
+    font-size: 24px;
+
+}
+
+/* Sections */
+#home{
+    /* display: flex; */
+    flex-direction: column;
+    padding: 50px 200px;
+    /* justify-content: center; */
+    align-items: center;
+    background: url(./images/thumbnail_img.jpg);
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+    
+   
+}
+
+.h-primary{
+    font-size: 30px;
+    padding: 15px;
+    Color: red;
+}
+.para1{
+    font-family:cursive;
+    padding: 10px;
+    color:red;
+
+}
+.btn{
+    padding: 6px 20px;
+    margin: 17px;
+    font-size: large;
+    border-radius: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+
+/* About Section */
+
+.secRight{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.secLeft{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+}
+
+
+/* Services */
+.services{
+    margin: 34px;
+    display: flex;
+
+}
+.services .box{
+border: 1px solid red;
+padding: 34px;
+margin: 3px 6px;
+border-radius: 28px;
+background-color: #f2f2f2
+}
+
+.services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+/* Contact Us */
+.contact h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    padding : 17px;
+}
+
+.contact p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.contact{
+    background-color: rgb(254, 240, 242);
+    height: 100vh;
+}
+
+.form{
+   margin-left: 400px;
+}
+
+.form input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+}
+
+.form textarea{
+    width: 70%;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    /* color: black; */
+}
+
+.btn3{
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 250px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
